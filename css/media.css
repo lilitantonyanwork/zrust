@@ -1,0 +1,261 @@
+@media screen and (max-width: 1320px) {
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer-container{
+        width: calc(100% - 60px);
+    }
+}
+@media screen and (max-width: 1100px) {
+
+}
+@media screen and (max-width: 1024px) {
+    .gide-title{
+        top: 15px;
+        left: 15px;
+        font-size: 20px;
+    }
+    .aside-block{
+        width: 280px;
+    }
+    .page-section {
+        width: calc(100% - 300px);
+    }
+    .event-info{
+        left: 15px;
+        bottom: 15px;
+
+    }
+    .event-title{
+        font-size: 20px;
+    }
+    .rating-info{
+        left: 15px;
+        bottom: 15px;
+    }
+    .rating-number{
+        top: 15px;
+        left: 15px;
+    }
+    .news-title{
+        left: 15px;
+        bottom: 15px;
+        font-size: 20px;
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .footer-container {
+        width: calc(100% - 30px);
+    }
+    main {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .menu-link{
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+    .login{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .block-title{
+        height: 80px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+        top: 35px;
+    }
+    .user-name{
+        font-size: 20px;
+    }
+    .user-id{
+        font-size: 14px;
+    }
+    .site-info h2{
+        font-size: 28px;
+    }
+    .site-info{
+        padding-top: 30px;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .aside-block {
+        width: 200px;
+    }
+    .page-section {
+        width: calc(100% - 220px);
+    }
+    .aside-block .title{
+        font-size: 18px;
+    }
+    .aside-block .text{
+        font-size: 12px;
+    }
+    .btn-primary{
+        font-size: 14px;
+        height: 40px;
+    }
+    .rating-item{
+        height: 300px;
+    }
+    .event-item{
+        height: 300px;
+    }
+    .gide-item{
+        height: 300px;
+    }
+    .news-item{
+        height: 300px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    main .container{
+        flex-direction: column-reverse;
+    }
+    .page-aside{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .aside-block{
+        width: 100%;
+    }
+    .page-section{
+        width: 100%;
+    }
+    .nav-logo img{
+        width: 90px;
+    }
+    .site-info p{
+        font-size: 14px;
+    }
+    .login {
+        font-size: 14px;
+    }
+    .nav-logo {
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .menu{
+        flex-wrap: wrap;
+    }
+    .gide-list{
+        flex-direction: column;
+    }
+    .event-list{
+        flex-direction: column;
+    }
+    .news-list{
+        flex-direction: column;
+    }
+    .news-item{
+        width: 100%;
+    }
+    .footer-top{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .footer-bottom div{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-bottom p{
+        padding-right: 0;
+        text-align: center;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .swiper-button-next{
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+    }
+    .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+    }
+    .page-aside{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .page-aside{
+        flex-direction: column;
+    }
+    .mob-menu{
+        display: block;
+        background: transparent;
+        width: 40px;
+        height: 40px;
+        border: none;
+    }
+    .mob-menu svg{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .login{
+        margin-right: 30px;
+    }
+    .menu{
+        position: absolute;
+        top: 100%;
+        background: rgba(17, 21, 31, 100%);
+        width: calc(100% - 30px);
+        left: 15px;
+        z-index: 9;
+        margin-top: -20px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+    .menu-link{
+        margin-bottom: 10px;
+        font-size: 16px;
+        display: block;
+    }
+
+    header{
+        position: relative;
+    }
+    .banner{
+        height: 140px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .banner img{
+        object-fit: cover;
+        height: 100%;
+    }
+    .footer-logo img{
+        width: 150px;
+    }
+}
