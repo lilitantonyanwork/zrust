@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: url('../img/bg.png') #222c46 no-repeat top center;
+    background-size: cover;
     position: relative;
     z-index: 1;
     font-family: "Rubik", serif;
