@@ -1,6 +1,11 @@
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1980px){
     body{
         background-position: top center;
+    }
+}
+@media screen and (min-width: 1600px){
+    body{
+        background-position: center center;
     }
 }
 @media screen and (max-width: 1320px) {
