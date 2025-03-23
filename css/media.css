@@ -8,7 +8,7 @@
         background-position: center center;
     }
 }
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1350px) {
     .container{
         padding-left: 30px;
         padding-right: 30px;
@@ -16,9 +16,117 @@
     .footer-container{
         width: calc(100% - 60px);
     }
+    .profile-actions{
+        flex-wrap: wrap;
+    }
+    .process-right img{
+        width: calc(100%/ 2 - 10px);
+    }
+}
+@media screen and (max-width: 1250px){
+    .profile-left {
+        width: 300px;
+    }
+    .profile-right {
+        width: calc(100% -  321px);
+    }
+    .profile-row-value{
+        white-space: wrap;
+        font-size: 14px;
+    }
+    .path:after{
+        max-width: 300px;
+        background-size: 100%;
+    }
+    .path:before{
+        max-width: 300px;
+        background-size: 100%;
+
+    }
+    .counter-content-left{
+        display: flex;
+        align-items: flex-end;
+    }
+    .counter-content-left img{
+        max-width: 100%;
+    }
+    .path{
+        padding-bottom: 100px;
+    }
+    .how-to-play{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .gides{
+        padding-top: 70px;
+    }
+    .process{
+        padding-top: 70px;
+    }
+    .socials{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .ceo{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .landing .menu-link{
+        font-size: 14px;
+    }
+    .menu{
+        gap: 20px;
+    }
+    .landing-banner-item{
+        height: 400px;
+    }
 }
 @media screen and (max-width: 1100px) {
+    .process-left{
+        width: 50%;
+    }
+    .process-left img{
+        max-width: 100%;
+    }
+    .process-right{
+        width: 50%;
+    }
+    .socials-item a{
+        text-align: center;
+    }
+    .socials-item a img{
+        width: 90%;
+    }
+    .play-banner-left img{
+        max-width: 100%;
+    }
+    .play-banner-right p{
+        padding-right: 50px;
+    }
+    .gides .gide-item{
+        height: 320px;
+    }
+    .gides .gide-title{
+        font-size: 20px;
+    }
+    .play-info h4{
+        font-size: 18px;
+    }
+    .play-info p{
+        font-size: 14px;
+    }
+    .play-actions .btn-red{
+        width: 200px;
+    }
+    .path:after {
+        max-width: 270px;
+        background-position: bottom;
 
+    }
+    .path:before {
+        max-width: 270px;
+        background-position: bottom;
+    }
 }
 @media screen and (max-width: 1024px) {
     .gide-title{
@@ -62,6 +170,117 @@
     }
     main {
         margin-bottom: 30px;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .profile-left {
+        width: 100%
+
+    }
+    .profile-left img{
+        height: 200px;
+        object-fit: cover;
+        object-position: 0 0;
+        border-radius: 10px;
+    }
+    .profile-right {
+        width:100%
+    }
+    .profile-row-value{
+        white-space: nowrap;
+    }
+    .table-col{
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .profile-title{
+        font-size: 28px;
+    }
+    .title span{
+        font-size: 16px;
+    }
+    .path{
+        padding-top: 100px;
+    }
+    .path-title{
+        font-size: 30px;
+    }
+    .path-text{
+        font-size: 14px;
+    }
+    .btn-outline{
+        font-size: 14px;
+    }
+    .path-actions .btn-outline {
+        width: 200px;
+    }
+    .counter-content-right h2{
+        font-size: 36px;
+    }
+    .counter-content-right p{
+        font-size: 14px;
+
+    }
+    .countdown span{
+        width: 79px;
+        font-size: 30px;
+    }
+    .countdown p{
+        font-size: 18px;
+    }
+    .how-to-play h2{
+        font-size: 30px;
+    }
+    .daily-roulette > h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .notification p{
+        font-size: 14px;
+    }
+    .gides-title{
+        font-size: 30px;
+    }
+    .process-title{
+        font-size: 30px;
+    }
+    .socials-title{
+        font-size: 30px;
+    }
+    .play-banner-right h2{
+        font-size: 30px;
+        padding-right: 50px;
+    }
+    .ceo-title{
+        font-size: 30px;
+    }
+    .navbar .btn-red{
+        font-size: 14px;
+    }
+    main .container{
+        gap: 10px;
+    }
+    .group-list{
+        margin-bottom: 70px;
+    }
+    .play-actions .btn-red{
+        font-size: 14px;
+        width: 170px;
+    }
+    .play-actions .btn-outline{
+        font-size: 14px;
+        width: 170px;
+    }
+    .gide-list{
+        gap: 10px;
+    }
+    .socials-item{
+        height: 140px;
+    }
+    .social-list{
+        gap: 10px;
     }
 }
 @media screen and (max-width: 990px) {
@@ -134,6 +353,33 @@
     .text{
         font-size: 14px;
     }
+    .path:after{
+        max-width: 200px;
+    }
+    .path:before{
+        max-width: 200px;
+    }
+    .path {
+        padding-top: 50px;
+    }
+    .landing-banner-item {
+        height: 300px;
+    }
+    .play{
+        bottom: 110px;
+    }
+    .landing-banner-item:nth-child(3) .caption{
+        bottom: 40px;
+    }
+    .caption h2{
+        font-size: 20px;
+    }
+    .caption p{
+        font-size: 14px;
+    }
+    .landing-banner-item:hover .play{
+        bottom: 110px;
+    }
 }
 @media screen and (max-width: 768px) {
     main .container{
@@ -162,6 +408,83 @@
     }
     .nav-logo {
         margin-right: 25px;
+    }
+    .play-banner-left{
+        width: 50%;
+    }
+    .play-banner-right h2{
+        font-size: 24px;
+    }
+    .play-banner-right p{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .play-banner-right{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .play-banner-right .btn-red{
+        font-size: 14px;
+    }
+    .gide-list{
+        flex-wrap: wrap;
+    }
+    .gides .gide-item{
+        width: calc(100% / 2 - 10px);
+        height: 380px;
+    }
+    .gide-list {
+        gap: 20px;
+    }
+    .play-item{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .play-actions{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .counter-content{
+        min-height: auto;
+    }
+    .counter-content-right h2{
+        font-size: 30px;
+    }
+    .counter-content-right{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .counter-content-left{
+        width: 50%;
+    }
+    .landing-banner .container{
+        flex-direction: row;
+    }
+   .landing .mob-menu {
+        display: block;
+        background: transparent;
+        width: 40px;
+        height: 40px;
+        border: none;
+       margin-left: 20px;
+    }
+    .landing .menu{
+        display: none;
+    }
+    .landing .menu {
+        position: absolute;
+        top: 100%;
+        background: rgba(17, 21, 31, 100%);
+        width: 100%;
+        left:0;
+        z-index: 9;
+        margin-top: -7px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .landing .navbar{
+        position: relative;
     }
 }
 @media screen and (max-width: 700px) {
@@ -212,10 +535,169 @@
     .page-aside{
         gap: 10px;
     }
+    .news-page .news-item{
+        width: 100%;
+    }
+    .title span{
+        font-size: 16px;
+    }
+    .page-event .event-title{
+        font-size: 24px;
+    }
+    .landing-banner-item{
+        width: calc(100%/ 3 - 10px);
+        height: 400px;
+    }
+    .landing-banner .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .path:after{
+        display: none;
+    }
+    .path:before{
+        display: none;
+
+    }
+    .counter-content-left{
+        display: none;
+    }
+    .counter-content-right{
+        padding-left: 30px;
+    }
+    .landing .gide-list{
+        flex-direction: row;
+    }
+    .process-list{
+        flex-direction: column;
+    }
+    .process-left{
+        width: 100%;
+    }
+    .process-right{
+        width: 100%;
+    }
+    .social-list{
+        flex-wrap: wrap;
+    }
+    .play-banner-left{
+        display: none;
+
+    }
+    .play-banner-right{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .profile-actions{
+        flex-direction: column;
+    }
+    .table-col-name img {
+        width: 25px;
+        height: 25px;
+    }
+    .table-row .table-col-status{
+        font-size: 10px;
+        position: relative;
+    }
+    .table-row .table-col-status-online{
+    padding-left: 10px;
+}
+    .table{
+        width: 600px;
+    }
+    .page-overflow{
+        overflow: auto;
+    }
+    .table-row .table-col-status span{
+        position: absolute;
+        left: 0;
+
+    }
+    .landing-banner-item{
+        height: 350px;
+    }
 }
 @media screen and (max-width: 480px) {
+    .gides .gide-item{
+        width: 100%;
+        height: auto;
+    }
+    .play-actions{
+        flex-direction: column;
+        width: 100%;
+    }
+    .play-actions .btn-outline{
+        width: 100%;
+    }
+    .play-actions .btn-red{
+        width: 100%;
+        max-width: 100%;
+    }
+    .pagination-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+    .group-list{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .path-actions{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .path-actions .btn-outline{
+        width: 100%;
+    }
+    .landing-banner-item{
+        width: calc(100%/2 - 10px);
+        height: 325px;
+    }
+    .path-text{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .path-title{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .current-page{
+        margin-left: 0;
+    }
+    .pagination-block .show-more {
+        width: 100%;
+        text-align: center;
+    }
     .page-aside{
         flex-direction: column;
+    }
+    .ceo-text{
+        font-size: 14px;
+    }
+    .play-banner-right h2{
+        padding-right: 20px;
+    }
+    .play-banner-right p{
+        padding-right: 20px;
+    }
+    .countdown span {
+        width: 65px;
+        font-size: 20px;
+    }
+    .counter-content-right{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar .btn-red{
+        display: none;
+    }
+    .landing  .mob-menu{
+        margin-left: auto;
     }
     .mob-menu{
         display: block;
@@ -267,5 +749,25 @@
     }
     .footer-logo img{
         width: 150px;
+    }
+    .gide-info-title{
+        font-size: 16px;
+    }
+    .gide-info-text p{
+        font-size: 14px;
+    }
+    ol li{
+        font-size: 14px;
+    }
+    .profile-row-value {
+        white-space: wrap;
+        font-size: 12px;
+        text-align: right;
+    }
+    .profile-row-name{
+        font-size: 12px;
+    }
+    .profile-title{
+        font-size: 20px;
     }
 }
