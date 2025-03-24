@@ -68,4 +68,18 @@ $(function (){
         .on( "mouseleave", function() {
             $(".landing-banner-item" ).removeClass('hover');
         } );
+    $( ".path-actions .btn-outline:last-child" )
+        .on( "mouseenter", function() {
+            $(".path" ).addClass('right');
+        } )
+        .on( "mouseleave", function() {
+            $(".path" ).removeClass('right');
+        } );
+    $( ".path-actions .btn-outline:first-child" )
+        .on( "mouseenter", function() {
+            $(".path" ).addClass('left');
+        } )
+        .on( "mouseleave", function() {
+            $(".path" ).removeClass('left');
+        } );
 })

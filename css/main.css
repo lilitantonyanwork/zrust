@@ -762,6 +762,8 @@ ol li{
 }
 .play-banner{
     background: url('../img/landing/bg1.png') no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .play-banner-right{
     flex-direction: column;
@@ -1186,6 +1188,8 @@ ol li{
     padding-top: 183px;
     padding-bottom: 200px;
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .path:before{
     content: '';
@@ -1198,6 +1202,11 @@ ol li{
     top: 50%;
     transform: translateY(-50%);
     background: url('../img/landing/26.png') no-repeat;
+    transition: background 0.5s ease-in-out;
+}
+.path.left:before{
+    background: url('../img/landing/26-hover.png') no-repeat;
+
 }
 .path:after{
     content: '';
@@ -1209,7 +1218,13 @@ ol li{
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    transition: background 0.5s ease-in-out;
+
     background: url('../img/landing/6.png') no-repeat;
+}
+.path.right:after{
+    background: url('../img/landing/6-hover.png') no-repeat;
+
 }
 .path-title{
     font-family: Rubik;
