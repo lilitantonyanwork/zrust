@@ -64,9 +64,12 @@ $(function (){
     $( ".landing-banner-item:nth-child(3)" )
         .on( "mouseenter", function() {
             $(".landing-banner-item" ).addClass('hover');
+            $(".landing" ).addClass('bg-light');
         } )
         .on( "mouseleave", function() {
             $(".landing-banner-item" ).removeClass('hover');
+            $(".landing" ).removeClass('bg-light');
+
         } );
     $( ".path-actions .btn-outline:last-child" )
         .on( "mouseenter", function() {
@@ -76,6 +79,20 @@ $(function (){
             $(".path" ).removeClass('right');
         } );
     $( ".path-actions .btn-outline:first-child" )
+        .on( "mouseenter", function() {
+            $(".path" ).addClass('left');
+        } )
+        .on( "mouseleave", function() {
+            $(".path" ).removeClass('left');
+        } );
+    $( ".path-right" )
+        .on( "mouseenter", function() {
+            $(".path" ).addClass('right');
+        } )
+        .on( "mouseleave", function() {
+            $(".path" ).removeClass('right');
+        } );
+    $( ".path-left" )
         .on( "mouseenter", function() {
             $(".path" ).addClass('left');
         } )

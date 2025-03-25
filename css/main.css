@@ -762,6 +762,10 @@ ol li{
 }
 .play-banner{
     background: url('../img/landing/bg1.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.play-banner-content{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -1019,6 +1023,12 @@ ol li{
     background: url('../img/landing/bg5.png') no-repeat;
     height: 1300px;
     background-size: 100% 100%;
+    transition: background 1s ease-in-out;
+}
+.landing.bg-light:before{
+    background: url('../img/landing/bg7.png') no-repeat;
+    height: 1300px;
+    background-size: 100% 100%;
 }
 .play-info h4{
     font-family: Rubik;
@@ -1208,9 +1218,26 @@ ol li{
     background: url('../img/landing/26-hover.png') no-repeat;
 
 }
+.path-left{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+}
+.path-right{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+
+}
 .path:after{
     content: '';
-    max-width: 403px;
+    max-width: 439px;
     max-height: 416px;
     width: 100%;
     height: 100%;
@@ -1253,6 +1280,8 @@ ol li{
 .path-actions .btn-outline{
     width: 220px;
     transition: background-color 0.3s ease-in-out;
+    position: relative;
+    z-index: 2;
 }
 .path-actions .btn-outline:hover{
     background: #D4260F;
