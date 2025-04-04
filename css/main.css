@@ -1402,3 +1402,140 @@ ol li{
 .landing .navbar{
     margin-bottom: 60px;
 }
+.gallery__list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.gallery__list img{
+    width: calc(100%/4 - 10px);
+}
+.side__content{
+    backdrop-filter: blur(4px);
+    background: rgba(31, 41, 65, 0.75);
+    border-radius: 20px;
+    padding: 50px 40px;
+}
+.side__content h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.side__content p{
+    color: #D9D9D9;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.side__content p:last-child{
+    margin-bottom: 0;
+}
+.side__content{
+    margin-bottom: 30px;
+}
+.side-banner__content{
+    backdrop-filter: blur(4px);
+    background: rgba(31, 41, 65, 0.75);
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 40px;
+    padding: 40px;
+}
+.side-banner__left{
+    background: url('../img/landing/sidebg.png') no-repeat;
+}
+.side-banner__right{
+    padding-top: 50px;
+}
+.side-banner__right h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.side-banner__right p{
+    color: #DDDDDD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    max-width: 569px;
+}
+.player{
+    padding: 15px 20px;
+    background: #161D2B;
+    border-radius: 10px;
+    max-width: 498px;
+    margin-bottom: 50px;
+}
+.player__content{
+    display: flex;
+    align-items: center;
+
+}
+.btn__back{
+    background:rgba(250, 250, 250, 0.85);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 5px 0 0 ;
+    border: none;
+}
+.btn__play{
+    background:rgba(250, 250, 250, 0.85);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 15px 0 0 ;
+
+    border: none;
+}
+
+.btn__volume{
+    background:none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.track{
+    width: 100%;
+    height: 8px;
+    border-radius: 19px;
+    background: rgba(50, 57, 72, 1);
+    margin-right: 15px;
+    position: relative;
+}
+.played{
+    width: 30%;
+    height: 8px;
+    border-radius: 19px;
+    background: rgba(216, 217, 219, 1);
+    left: 0;
+}
+.side-banner__right .btn-red{
+    white-space: nowrap;
+    min-width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 49px;
+}
+.landing--light-bg:before{
+    background: url('../img/landing/bg7.png') no-repeat;
+    background-size: 100% 100%;
+}
